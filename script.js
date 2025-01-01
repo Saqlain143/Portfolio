@@ -1,3 +1,8 @@
+// preloader js code
+window.addEventListener('load', () => {
+    document.querySelector('.preloader').style.display = 'none';
+});
+
 // active hamburger menu 
 let menuIcon = document.querySelector(".menu-icon");
 let navlist = document.querySelector(".navlist")
