@@ -631,27 +631,28 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
     <script src="script.js"></script>
 
-<!-- Contact Form -->
-<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
-<script type="text/javascript">
-   (function(){
-      emailjs.init("U6sdJvb4sFwlIXodj");
-   })();
-</script>
+    <!-- Contact Form -->
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("U6sdJvb4sFwlIXodj");
+        })();
+    </script>
 
-<script type="text/javascript">
-    document.getElementById('contact-form').addEventListener('submit', function(event) {
-        event.preventDefault();
+    <script type="text/javascript">
+        document.getElementById('contact-form').addEventListener('submit', function (event) {
+            event.preventDefault();
 
-        emailjs.sendForm('service_bsn062j', 'template_zpcxefd', this)
-            .then(function() {
-                alert('Message sent successfully!');
-                document.getElementById('contact-form').reset(); // Reset the form fields
-            }, function(error) {
-                alert('Failed to send message. Please try again later.');
-            });
-    });
-</script>
+            emailjs.sendForm('service_bsn062j', 'template_zpcxefd', this)
+                .then(function () {
+                    alert('Message sent successfully!');
+                    document.getElementById('contact-form').reset(); // Reset the form fields
+                }, function (error) {
+                    alert('Failed to send message. Please try again later.');
+                });
+        });
+    </script>
 
 </body>
+
 </html>
