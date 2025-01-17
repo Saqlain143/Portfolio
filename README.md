@@ -1,6 +1,6 @@
 # Saqlain Abid - Portfolio
 
-<h3 align="center"><a href="https://saqlain143.github.io/Portfolio/" target="_blank" class="btn">Live Demo</a></h3>
+<p align="center"><a href="https://saqlain143.github.io/Portfolio/" target="_blank" class="btn">Live Demo</a></p>
 
 <img src="asset/Home.png">
 <img src="asset/About.png">
